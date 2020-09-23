@@ -1,25 +1,82 @@
 html{
-    font-family:sans-serif;
-}
+    font-family:monospace;
 
-.container{
-    width:max-content;
+}
+body {
     background:black;
-    height:2000px;
-    margin:0 auto 0 auto;
+    background-image: url("https://i.gifer.com/PXG3.gif");
+  
+   
+  }
 
-}
+.centered {
+    position:absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
 
 #page-title{
     text-align:center;
-    padding:50px;
-    font-weight: 400;
-}
-
-.container img{
-    width:30%;
-    height:150px;
-    display:block;
+    padding:5px;
+    font-weight: 800;
+    font-family:monospace;
+    border:groove 10px purple;
+    background:slateblue;
+    box-shadow: 0px 0px 15px 10px lightgreen;
     
+}
+
+.scrolling-head{
+padding:0px;
+display:flex;
+justify-content:center;
 
 }
+
+.scrolling-head img{
+    width:5000px;
+}
+
+.dragon{
+    padding:0px;
+    display:flex;
+    justify-content:center;
+    
+    }
+
+ .container{
+    border: 5px solid green;
+    background-image:url("https://64.media.tumblr.com/tumblr_m8tg87yEeJ1r1rrxzo1_500.gif");
+    max-height:2000px;
+    margin:0 auto 0 auto;
+    display:flex;
+    padding:50px;
+    flex-direction: column;
+    justify-content: space-evenly;
+ }
+
+ .box{
+    width: 200px;
+    height: 150px;
+    border: 2px solid green;
+    margin: 20px;
+    margin-left: 0;
+    box-shadow: 0px 1px 0px 2px slateblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding:5px;
+ }
+
+ .row{
+    
+    padding: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    max-width:2000px;
+    min-width: 500px;
+
+ }
+ 
