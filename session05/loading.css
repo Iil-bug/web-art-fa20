@@ -1,0 +1,55 @@
+body{
+    background-image: url("https://cdn.xl.thumbs.canstockphoto.com/heart-in-a-sphere-red-heart-inside-a-glass-transparent-green-sphere-clip-art_csp0968082.jpg");
+   
+}
+
+h1{
+    font-family:monospace;
+   
+    
+}
+
+ #img{
+    position: fixed;
+    animation-name:loading;
+    animation-duration: 60s;
+    padding-top:200px;
+    animation-iteration-count: infinite;
+}
+
+@keyframes loading{
+    0%{
+        left:0%;
+    }
+
+    10%{
+        left:10%;
+    }
+    15%{
+        left:15%;
+    }
+    
+
+    25%{
+        right:25%;
+    }
+
+    50%{
+        left:50%;
+    }
+    55%{
+        left:55%;
+    }
+    60%{
+        left:60%;
+    }
+
+    75%{
+        left:75%;
+    }
+
+    100%{
+    left:100%;
+    }
+
+}
