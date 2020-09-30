@@ -14,7 +14,7 @@ h1{
     animation-name:loading;
     animation-duration: 60s;
     padding-top:200px;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 1;
 }
 
 @keyframes loading{
