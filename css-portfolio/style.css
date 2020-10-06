@@ -1,0 +1,42 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    font-family:arial;
+}
+
+.wrapper{
+    background-image: repeating-linear-gradient(red, yellow 10%, green 20%);
+    width:100vw;
+    
+    max-width:1200px;
+    text-align:center;
+    margin:auto;
+}
+
+.gallery{
+    height:1000vmin;
+    background-image: url("https://picsum.photos/150/30");
+    margin:auto;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    
+}
+.gallery__item{
+   margin:2vmin;
+}
+
+header{
+    padding:10vmin;
+    background-image: url("https://picsum.photos/200/50");
+    text-align:center;
+    margin-bottom:2vmin;
+}
+
+header h1{
+    font-size:10vmin;
+}
