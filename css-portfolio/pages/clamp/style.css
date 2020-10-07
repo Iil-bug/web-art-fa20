@@ -1,0 +1,11 @@
+h1{
+    font-size: clamp(2rem, 10vw, 10em); 
+    display:flex;
+    justify-content:center;
+    padding-top:200px;
+}
+
+html{
+
+    background-image: url("https://66.media.tumblr.com/4376b3e45f60460470ee0053e4403ddf/a8521f52a6b1d263-32/s500x750/8d418b0dae345fe90df2f944bf10a83b1205e273.gifv");
+}

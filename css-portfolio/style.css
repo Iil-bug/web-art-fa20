@@ -9,16 +9,14 @@ html{
 }
 
 .wrapper{
-    background-image: repeating-linear-gradient(red, yellow 10%, green 20%);
+    background-image: repeating-linear-gradient(DeepPink, Greenyellow 10%, DarkOrange 20%);
     width:100vw;
-    
-    max-width:1200px;
     text-align:center;
     margin:auto;
 }
 
 .gallery{
-    height:1000vmin;
+    
     background-image: url("https://picsum.photos/150/30");
     margin:auto;
     display:flex;
