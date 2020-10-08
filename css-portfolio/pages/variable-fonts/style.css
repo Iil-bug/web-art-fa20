@@ -1,0 +1,58 @@
+
+@font-face {
+font-family: Decovar;
+src: url("https://d33wubrfki0l68.cloudfront.net/35138c441efe5077f7f1b5437d8033d58b98e203/952fc/assets/fonts/variable/decovaralpha-vf.subset.ttf")
+format("truetype-variations");
+}
+@font-face {
+font-family: "Source Sans";
+src: url("https://d33wubrfki0l68.cloudfront.net/f0f35e1c78339e9ab650f7d10a2b30af1ec0104a/147e5/assets/fonts/variable/sourcesansvariable-roman.ttf")
+format("truetype-variations");
+font-weight: 1 999;
+}
+.decovar,
+.decovar2{
+all: unset;
+display: block;
+text-align: center;
+font-family: Decovar;
+}
+.source-sans,
+.source-sans2 {
+all: unset;
+display: block;
+text-align: center;
+font-family: "Source Sans";
+transition: font-weight 0.45s ease-out;
+}
+.source-sans:hover,
+.source-sans2:hover {
+font-weight: 999;
+}
+
+.source-sans2 {
+font-weight: 600;
+}
+
+.decovar {
+color: var(--green3);
+font-variation-settings: "BLDA" 506.944, "TRMC" 1000, "TRMK" 324.653;
+}
+.decovar2 {
+color: hotpink;
+font-variation-settings: "WMX2" 580.838, "TRMB" 1000;
+}
+
+@media (min-width: 40em) {
+.decovar,
+.decovar2,
+.source-sans,
+.source-sans2
+ {
+font-size: 5.5rem;
+}
+}
+
+html{
+    background-image:url("https://data.whicdn.com/images/338582866/original.gif");
+}

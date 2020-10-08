@@ -6,26 +6,70 @@
 
 html{
     font-family:arial;
+    background-image: repeating-radial-gradient(deeppink, rgb(123, 255, 0) 10%, darkorange 15%);
 }
-
+.fishy img{
+   width:100vmax;
+   z-index: 3;
+   position:fixed;
+   top:300px;
+   height:150px;
+}
+.fishy{
+   height:1px;
+}
+.fishie img{
+    width:100vmax;
+    z-index: 2;
+    position:fixed;
+    top:50px;
+    height:250px;
+ }
+ .fishie{
+    height:1px;
+ }
+ .fishyy img{
+    width:100vmax;
+    z-index: 2;
+    position:fixed;
+    top:500px;
+    height:350px;
+ }
+ .fishyy{
+    height:1px;
+ }
 .wrapper{
+   
     background-image: repeating-linear-gradient(DeepPink, Greenyellow 10%, DarkOrange 20%);
     width:100vw;
     text-align:center;
     margin:auto;
 }
+.wrapper h1{
+    font-family:impact;
+    font-size: 100px;
+    color:deeppink;
+}
 
 .gallery{
     
     background-image: url("https://picsum.photos/150/30");
-    margin:auto;
+    margin:2vw;
     display:flex;
     flex-wrap:wrap;
     justify-content:center;
     
 }
 .gallery__item{
+    position:static;
+    z-index: 2;
    margin:2vmin;
+}
+
+.gallery__item p{
+    font-family:impact;
+    color:darkviolet;
+    
 }
 
 header{

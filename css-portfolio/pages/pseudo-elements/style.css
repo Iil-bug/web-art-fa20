@@ -1,0 +1,21 @@
+h1::before {
+    content: url("https://i.pinimg.com/originals/d5/d5/c1/d5d5c1e36312f16eb93ae544cadba062.gif");
+  }
+
+  h1{
+    font-size: 100px;
+    font-family:impact;
+    color:deeppink;
+  }
+
+h1::after {
+    content: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/d1cd936b-f52d-4cfb-aebc-d9cce6f03cbb/dd6mv0n-1bb3643f-9d23-41d2-8e08-5ecfa350cd6d.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvZDFjZDkzNmItZjUyZC00Y2ZiLWFlYmMtZDljY2U2ZjAzY2JiXC9kZDZtdjBuLTFiYjM2NDNmLTlkMjMtNDFkMi04ZTA4LTVlY2ZhMzUwY2Q2ZC5naWYifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.RxGoESTVSrJ8ko1dTaW7p5HpcTN9YDxOap9mhDUs_jA");
+  }
+
+  h2::before {
+    content: url("https://thumbs.gfycat.com/EducatedCalculatingHapuku-size_restricted.gif");
+  }
+
+html{
+    background-image: url("https://64.media.tumblr.com/af19e94a2dd3548a21af20634ff64a5c/276ddcd210f5a08f-9d/s500x750/f6d1d56add3bbdf87cadb8b86a4ac8bc1722f800.gifv")
+}
