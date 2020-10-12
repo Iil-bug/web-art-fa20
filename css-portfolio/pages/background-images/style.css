@@ -1,3 +1,16 @@
-body{
+html{
     background-image: url("https://i.pinimg.com/originals/cb/5e/1a/cb5e1af6cf1b215423d59fb07274e772.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.background2{
+    
+
+width:1000px;
+height:300px;
+    background-image: url("https://66.media.tumblr.com/a2a34658594ee03aed5edaa4f64888f3/f58dc645698c1e89-e2/s400x600/83d3a8552b0e1f5d1278e76d5d695b94fa0d9f60.gifv");
+    background-size: contain;
+    background-position: center;
+
 }

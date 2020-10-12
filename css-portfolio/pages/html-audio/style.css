@@ -1,0 +1,8 @@
+.middle{
+    display:flex;
+    justify-content: center;
+}
+
+html{
+    background-image: url("https://66.media.tumblr.com/a2a34658594ee03aed5edaa4f64888f3/f58dc645698c1e89-e2/s400x600/83d3a8552b0e1f5d1278e76d5d695b94fa0d9f60.gifv");
+}
